@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.top-box {
+	background-image: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/flowers/flowers-header-5102-1024x300.jpg);
+	background-size: cover;
+	height: 50vh;
+	color: white;
+}
+
+.intro {
+	left: 25%;
+	top: 25%;
+	position: relative;
+}
+
+.main-title {
+	font-family: "Pacifico", cursive;
+	font-size: 3em;
+}
+
+.os-icons {
+	display: flex;
+	height: 5vh;
+}
+
+.os-icon {
+	margin: 0 0.2em;
+	background-color: black;
+	opacity: 0.3;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+.second-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
+
+
+.feature {
+	width: 40vh;
+	height: 40vh;
+	padding: 50px;
+}
+
+.feature-image {
+	margin: 0 0.2em;
+	background-color: lightgreen;
+	color: white;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 55px;
+}
+
+.third-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	background-color: lightgrey;
+}
+
+.form {
+	padding: 50px;
+	width: 70vh;
+}
+
+.fourth-box {
+    max-width: 450px; /* width will be 100% of parent, UP TO 450px */
+    margin: 0 auto; /* margin auto on the left and right sides centers the element */
+    padding: 1em; /* generous spacing to allow for a border */
+}
+
+.social-icons {
+	display: flex;
+}
+
+.social-icon {
+	margin: 0 0.2em;
+	background-color: lightgrey;
+	color: white;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+	background-color: lightgrey;
+}
+
+.link {
+	padding: 1em;
+	color: darkgrey;
+}
